@@ -1,5 +1,3 @@
-
-
 class PersegiPanjang(val panjang: Int, val lebar: Int) {
     fun hitungLuas(): Int {
         return panjang * lebar

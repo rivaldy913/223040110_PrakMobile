@@ -1,5 +1,4 @@
 package Tugas1
-
 class IndeksNilaiMatkul {
     fun hitungIndeks(nilai: Int?): String {
         return when {
@@ -17,7 +16,6 @@ class IndeksNilaiMatkul {
         }
     }
 }
-
 fun main(args: Array<String>) {
     val indeksNilaiMatkul = IndeksNilaiMatkul()
     println("No\tInput\tOutput")
